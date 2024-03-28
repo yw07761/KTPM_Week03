@@ -1,0 +1,6 @@
+resilience4j:
+  retry:
+    instances:
+      customerServiceRetry:
+        max-retry-attempts: 3
+        wait-duration: 10000ms
